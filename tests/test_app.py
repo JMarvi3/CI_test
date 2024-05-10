@@ -16,3 +16,8 @@ def test_init_with_invalid_a_type():
 def test_init_with_invalid_b_type():
     with pytest.raises(TypeError):
         App("Hello", "World")
+
+
+def test_sum():
+    app = App("Hello", 1)
+    assert app.concat == "Hello1"

@@ -6,3 +6,7 @@ class App:
             raise TypeError("b must be an integer")
         self.a = a
         self.b = b
+
+    @property
+    def concat(self):
+        return self.a + str(self.b)
