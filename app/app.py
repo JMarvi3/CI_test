@@ -9,4 +9,4 @@ class App:
 
     @property
     def concat(self):
-        return self.a + str(self.b) + "!"
+        return self.a + str(self.b)
